@@ -1,4 +1,4 @@
-
+import FormHotel from "../FormHotel";
 
 const CardFormularios = () => {
     return (
@@ -48,7 +48,7 @@ const CardFormularios = () => {
                 </button>
             </div>
             <div>
-                Hola
+                <FormHotel />
             </div>
         </div>
     );
