@@ -1,8 +1,9 @@
 import FormHotel from "../FormHotel";
+import FormVuelo from "../FormVuelo";
 
 const CardFormularios = () => {
     return (
-        <div className='bg-red-950 rounded-xl p-5 flex flex-col'>
+        <div className='bg-red-950 text-white p-5 flex flex-col overflow-visible'>
             <div className='flex flex-row flex-wrap justify-center items-center gap-3 mb-5 border-b border-white pb-5'>
                 <button className='bg-red-600 text-white border-2 p-1 flex flex-row items-center gap-1'>
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-building" viewBox="0 0 16 16">
@@ -48,7 +49,7 @@ const CardFormularios = () => {
                 </button>
             </div>
             <div>
-                <FormHotel />
+                <FormVuelo />
             </div>
         </div>
     );

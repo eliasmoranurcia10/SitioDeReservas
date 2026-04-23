@@ -9,7 +9,7 @@ const Header = () => {
 
     return (
         <>
-        <header className='bg-red-600/60 text-white fixed top-0 right-0 left-0 h-25'>
+        <header className='bg-red-600/60 text-white fixed top-0 right-0 left-0 h-25 max-md:h-15 max-md:bg-red-600'>
 
             <div className='max-w-6xl mx-auto h-full border-b-4 border-white p-1'>
                 <div className='flex flex-row h-full'>
@@ -25,7 +25,7 @@ const Header = () => {
                             <NavBar />
                         </nav>
                     </div>
-                    <div className='md:hidden fixed top-5 right-3 p-auto'>
+                    <div className='md:hidden fixed top-1 right-3 p-auto'>
                         <button onClick={() => setOpen(true)}>
                             <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" className="bi bi-list" viewBox="0 0 16 16">
                                 <path d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
