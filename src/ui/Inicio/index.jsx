@@ -1,5 +1,6 @@
 import Fondo from '../../assets/imagen-fondo.jpg';
 import CardFormularios from '../CardFormularios';
+import Beneficios from '../Beneficios';
 
 const Inicio = () => {
     return (
@@ -14,7 +15,13 @@ const Inicio = () => {
                     Ver más
                 </button>
             </div>
-            <CardFormularios />
+            <div className='bg-red-950'>
+                <CardFormularios />
+            </div>
+            <div className='bg-white'>
+                <Beneficios />
+            </div>
+            
         </>
     );
 }
